@@ -3,6 +3,6 @@
 
 @implementation AppAvailability : NSObject 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterPlugin registerWithRegistrar:registrar];
+  [MySwiftFlutterPlugin registerWithRegistrar:registrar];
 }
 @end
